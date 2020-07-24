@@ -212,7 +212,7 @@
       "pl_PL__name": "Meteo",
       "es_ES__name": "Meteo",
       "icons": "https://image.noelshack.com/fichiers/2020/30/5/1595606176-meteo.png",
-      "routeName": "9gag",
+      "routeName": "Meteo",
       "inHomePage": true
     },
     {
@@ -223,7 +223,7 @@
       "pl_PL__name": "Music",
       "es_ES__name": "Music",
       "icons": "https://image.noelshack.com/fichiers/2020/30/5/1595606177-music.png",
-      "routeName": "9gag",
+      "routeName": "Music",
       "inHomePage": true
     },
     {
@@ -234,7 +234,7 @@
       "pl_PL__name": "Galerie",
       "es_ES__name": "Galerie",
       "icons": "https://image.noelshack.com/fichiers/2020/30/5/1595606176-galerie.png",
-      "routeName": "9gag",
+      "routeName": "Galerie",
       "inHomePage": true
     },
     {
@@ -245,7 +245,7 @@
       "pl_PL__name": "Calculette",
       "es_ES__name": "Calculette",
       "icons": "https://image.noelshack.com/fichiers/2020/30/5/1595611555-netflix.png",
-      "routeName": "9gag",
+      "routeName": "Calculette",
       "inHomePage": true
     },
     {
@@ -256,7 +256,7 @@
       "pl_PL__name": "PostOP",
       "es_ES__name": "PostOP",
       "icons": "https://image.noelshack.com/fichiers/2020/30/5/1595614838-post-op.png",
-      "routeName": "9gag",
+      "routeName": "PostOP",
       "inHomePage": true
     },
     {
@@ -278,7 +278,7 @@
       "pl_PL__name": "WeazelNews",
       "es_ES__name": "WeazelNews",
       "icons": "https://image.noelshack.com/fichiers/2020/30/5/1595614838-weazel.png",
-      "routeName": "9gag",
+      "routeName": "WeazelNews",
       "inHomePage": true
     },
     {
