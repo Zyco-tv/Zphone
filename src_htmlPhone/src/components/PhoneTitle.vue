@@ -1,7 +1,7 @@
 <template>
   <div class="phone_title_content" :style="style" :class="{'hasInfoBare': showInfoBare}" >
     <InfoBare v-if="showInfoBare" />
-    <div class="phone_title" :style="{backgroundColor: '#1B1B1B'}">
+    <div class="phone_title" :style="{backgroundColor: backgroundColor}">
       <button class="btn-back" @click.stop="back"><i class="fa fa-arrow-left" @click.stop="back"></i></button>
       {{title}}
     </div>

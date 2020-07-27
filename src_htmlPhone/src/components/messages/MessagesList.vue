@@ -115,7 +115,7 @@ export default {
     },
     newMessageOption () {
       return {
-        backgroundColor: '#496E91',
+        backgroundColor: '#C0C0C0',
         display: this.IntlString('APP_MESSAGE_NEW_MESSAGE'),
         letter: '+',
         id: -1
@@ -138,7 +138,5 @@ export default {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: black;
-  color: white;
 }
 </style>

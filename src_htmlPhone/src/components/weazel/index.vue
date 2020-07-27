@@ -41,7 +41,7 @@ export default {
   },
   methods: {
     async loadItems () {
-      let url = 'https://www.youtube.com/' + this.nextCursor
+      let url = 'https://9gag.com/v1/group-posts/group/default/type/hot?' + this.nextCursor
       const request = await fetch(url)
       const data = await request.json()
       this.posts.push(...data.data.posts)

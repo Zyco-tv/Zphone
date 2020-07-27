@@ -189,7 +189,6 @@ export default {
 .content{
     margin: 6px 10px;
     margin-top: 28px;
-    background-color: black;
 }
 .group { 
   position:relative; 
@@ -204,16 +203,13 @@ input 				{
   display:block;
   width:100%;
   border:none;
-  border-radius: 10px;
   border-bottom:1px solid #757575;
-  background-color: #1E1E1E;
-  color: white;
 }
 input:focus 		{ outline:none; }
 
 /* LABEL ======================================= */
 label 				 {
-  color:white; 
+  color:#999; 
   font-size:18px;
   font-weight:normal;
   position:absolute;
@@ -229,7 +225,7 @@ label 				 {
 input:focus ~ label, input:valid ~ label 		{
   top:-24px;
   font-size:18px;
-  color:white;
+  color:#5264AE;
 }
 
 /* BOTTOM BARS ================================= */
@@ -240,7 +236,7 @@ input:focus ~ label, input:valid ~ label 		{
   width:0;
   bottom:1px; 
   position:absolute;
-  background:#29292A; 
+  background:#5264AE; 
   transition:0.2s ease all; 
   -moz-transition:0.2s ease all; 
   -webkit-transition:0.2s ease all;
@@ -296,7 +292,7 @@ input:focus ~ .highlight {
 .group .btn.btn-green{
   border: 1px solid #2ecc7080;
   color: #2ecc70;
-  background-color: #1E1E1E;
+  background-color: white;
   font-weight: 500;
   border-radius: 10px;
 }
@@ -308,7 +304,7 @@ input:focus ~ .highlight {
 .group .btn.btn-orange{
   border: 1px solid #e67e2280;
   color: #e67e22;
-  background-color: #1E1E1E;
+  background-color: white;
   font-weight: 500;
   border-radius: 10px;
 }
@@ -321,7 +317,7 @@ input:focus ~ .highlight {
 .group .btn.btn-red{
   border: 1px solid #e74c3c80;
   color: #e74c3c;
-  background-color: #1E1E1E;
+  background-color: white;
   font-weight: 500;
   border-radius: 10px;
 }
@@ -333,15 +329,15 @@ input:focus ~ .highlight {
 
 /* ANIMATIONS ================ */
 @-webkit-keyframes inputHighlighter {
-	from { background:#29292A; }
+	from { background:#5264AE; }
   to 	{ width:0; background:transparent; }
 }
 @-moz-keyframes inputHighlighter {
-	from { background:#29292A; }
+	from { background:#5264AE; }
   to 	{ width:0; background:transparent; }
 }
 @keyframes inputHighlighter {
-	from { background:#29292A; }
+	from { background:#5264AE; }
   to 	{ width:0; background:transparent; }
 }
 </style>

@@ -56,9 +56,9 @@ export default {
     openApp (app) {
       this.$router.push({ name: app.routeName })
     },
-    // onEnter () {
-    //   this.openApp(this.AppsHome[this.currentSelect] || {routeName: 'menu'})
-    // },
+    onEnter () {
+      this.openApp(this.AppsHome[this.currentSelect] || {routeName: 'menu'})
+    },
     onBack () {
       this.closePhone()
     }
@@ -140,7 +140,7 @@ export default {
   display: flex;
   padding: 0 16px; 
   width: 100%;
-  bottom:300px;
+  bottom:325px;
   position: absolute;
   align-items: flex-end;
   flex-flow: row;
@@ -188,17 +188,6 @@ button .puce{
 button.select, button:hover{
   background-color: rgba(255,255,255, 0.7);
   border-radius: 12px;
-}
-
-.btn_menu_ctn{
-  width: 100%;
-  display: flex;
-  height: 80px;
-  justify-content: center;
-  align-content: center;
-}
-.btn_menu {
-  height: 50px;
 }
 
 </style>

@@ -184,7 +184,7 @@ export default {
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
   }
   .active, .element:hover {
-    background: radial-gradient(#1E1E1E, #1E1E1E);
+    background: radial-gradient(rgba(3, 168, 244, 0.14), rgba(3, 169, 244, 0.26));
   }
   .elem-pic{
     margin-left: 12px;

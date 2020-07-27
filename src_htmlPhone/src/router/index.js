@@ -28,14 +28,13 @@ import Bourse from '@/components/Bourse/Bourse'
 import Photo from '@/components/Photo/Photo'
 
 import App9GAG from '@/components/App9GAG'
-
-import galerie from '@/components/galerie'
+import weazel from '@/components/weazel'
+import postop from '@/components/postop'
 import meteo from '@/components/meteo'
 import music from '@/components/music'
+import galerie from '@/components/galerie'
 import calculette from '@/components/calculette'
 
-import WeazelNews from '@/components/WeazelNews'
-import PostOP from '@/components/PostOP'
 Vue.use(Router)
 
 export default new Router({
@@ -123,9 +122,17 @@ export default new Router({
       name: 'twitter.screen',
       component: TwitterScreen
     }, {
-      path: '/9gag',
-      name: '9gag',
-      component: App9GAG
+      path: '/weazel',
+      name: 'weazel',
+      component: weazel
+    }, {
+      path: '/postop',
+      name: 'postop',
+      component: postop
+    }, {
+      path: '/meteo',
+      name: 'meteo',
+      component: meteo
     }, {
       path: '/music',
       name: 'music',
@@ -139,17 +146,9 @@ export default new Router({
       name: 'calculette',
       component: calculette
     }, {
-      path: '/WeazelNews',
-      name: 'WeazelNews',
-      component: WeazelNews
-    }, {
-      path: '/PostOP',
-      name: 'PostOP',
-      component: PostOP
-    }, {
-      path: '/meteo',
-      name: 'meteo',
-      component: meteo
+      path: '/9gag',
+      name: '9gag',
+      component: App9GAG
     }, {
       path: '*',
       redirect: '/'

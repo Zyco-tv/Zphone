@@ -102,14 +102,13 @@ export default {
         width: 100%;
         margin: 0;
         padding: 0;
-        background-color: #1E1E1E;
+        background-color: #fff;
         border-radius: 2px;
         box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
         transition: all .3s ease;
         padding-bottom: 16px;
         max-height: 100%;
         overflow-y: auto;
-        border-radius: 30px;
     }
 
     .modal-title {
