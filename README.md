@@ -1,7 +1,6 @@
 ### [Downloads page](https://github.com/N3MTV/gcphone/releases)
 
 <h2 align="center">Téléphone pour FiveM</h2>
-<h2 align="center">Meilleur que pichot 🖕 </h2>
 
 ![Image of gcphone1](https://image.noelshack.com/fichiers/2020/30/5/1595616064-unknown.png)
 
